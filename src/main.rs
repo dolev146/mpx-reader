@@ -1,9 +1,9 @@
 #![allow(unused)] // silence unused warnings while exploring (to comment out)
 
-use std::{fs, ptr::metadata};
+use std::{fs};
 
 use walkdir::WalkDir;
-const DIR: &str = "./";
+const DIR: &str = "./"; 
 
 fn main() {
     println!("Hello, world!!!!");
@@ -20,6 +20,7 @@ fn main() {
         }
         // println!("{}", entry.path().display());
     }
+    println!("{} , {}", total_numbers , total_size);
 }
 
 
